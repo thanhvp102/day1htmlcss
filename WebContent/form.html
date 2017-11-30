@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" href="css/form_style.css" />
+<script type="text/javascript" src="javascript/form_js.js"></script>
+<title>Insert title here</title>
+</head>
+<body>
+
+	<p>Form dang ki hoc</p>
+	<div class="formdangki">
+		<form action="form_cookie.html" method="get"
+			onsubmit="return !!(isCheckNull() & isCheckPhone())">
+			<ul>
+				<li>First name</li>
+				<li class="choosefile"><input type="file" id="file"
+					onchange='test()'> <img id="image" width="100px"
+					height="100px" float="right" /></li>
+			</ul>
+			</br> <input type="text" id="first_name" name="first_name" />
+			<p>Last name</p>
+			<input type="text" id="last_name" name="last_name" />
+			<p>Phone number</p>
+			<ul>
+				<li><input id="phone_number1" size="3" maxlength="3"
+					type="text" /></li>
+				<li><input id="phone_number2" size="3" maxlength="3"
+					type="text" /></li>
+				<li><input id="phone_number3" size="4" maxlength="4"
+					type="text" /></li>
+			</ul>
+			<ul>
+				<li><input type="radio" id="male" name="male" /></li>
+				<li>Male</li>
+			</ul>
+			<ul>
+				<li><input type="radio" id="female" name="female" /></li>
+				<li>Female</li>
+			</ul>
+			<textarea rows="3" cols=""></textarea>
+			<ul>
+				<li><input type="radio" id="bybike" /></li>
+				<li>By bike</li>
+			</ul>
+			<ul>
+				<li><input type="radio" id="bycar" /></li>
+				<li>By car</li>
+			</ul>
+			<select>
+				<option value="master">master</option>
+				<option value="junior">junior</option>
+				<option value="senior">senior</option>
+			</select>
+			<div></div>
+			<input class="submit" type="submit"></input>
+		</form>
+
+	</div>
+
+
+</body>
+</html>

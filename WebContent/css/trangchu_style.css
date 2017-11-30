@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ 
+/*==Style cơ bản cho website==*/
+body {
+  font-family: sans-serif;
+  color: #333;
+}
+.wrapper-right{width: 80%; float: right;}
+.wrapper-left{width: auto;}
+.dropdown-menu-top ul {
+  background: #1F568B;
+  list-style-type: none;
+  text-align: center;
+}
+.dropdown-menu-top li {
+  color: #f1f1f1;
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: -5px;
+  position: relative;
+}
+.dropdown-menu-top a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  z-index: 1000;
+}
+.dropdown-menu-top a:hover {
+  background: #F1F1F1;
+  color: #333;
+}
+.sub-menu-top li {
+  margin-left: 0;
+}
+.sub-menu-top {
+ display: none;
+ position: absolute;
+}
+.dropdown-menu-top li:hover .sub-menu-top {
+ display: block;
+}
+
+.banner img{margin:15px 36% 15px  ; }
+.banner{background: gray; padding: 10px;}
+.banner p{ text-transform: uppercase; text-align: center; color: blue;}
+.item1{width: 30%; height: 200px; float: left; margin: 10px; }
+.item1 .item_image img{float: left; margin-right:10px; width: 100px;height: 100px; }
+.item1 .item_header{margin-bottom: 10px;}
+.item2 {width: 30%; height: 200px; float: left; margin: 10px; }
+.item2 .item_image img{ float: left; margin-right:10px; width: 100px;height: 100px;}
+.item2 .item_header{margin-bottom: 10px;}
+.item3 {width: 30%; height: 200px; float: left;margin: 10px; }
+.item3 .item_image img{float: left;  margin-right:10px;width: 100px;height: 100px;}
+.item3 .item_header{margin-bottom: 10px;}
+.item3 .text{text-align: justify;}
+.item1 .text{text-align: justify;}
+.item2 .text{text-align: justify;}
+.wrapper-left li a{
+	background: green;
+	color: #f1f1f1;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 27px;
+ text-decoration: none;
+ 
+}
+.wrapper-left li{
+	 border-bottom: 1px solid white;height: 40px;
+}
+.wrapper-left{float: right;
+    width: 20%;
+    background: green;
+    height:700px}
+.footer{
+	margin-top:350px;float:none; border-top: 1px solid gray;
+}
